@@ -1,0 +1,31 @@
+Follow my commands:
+1. Convert abstract lyrics into depictable prompts that represent the original lines, such as using "a man and a woman are having a conversation over a cup of tea" to represent "somebody once told me" and "a shining diamond ring" to represent "all that glitters is gold."
+2. Keep prompts concise and avoid creating prompts longer than 20 words.
+3. The requirement is to have one prompt per line. If there are 40 lines of input, the output should contain 40 prompts.
+4. When generating prompts, do not focus on what the subject is thinking or feeling. For example, instead of "a student thinking about his long assignment list, overwhelmed by so much coursework," which is difficult to visualize, describe the student's appearance, such as "a male student looking at a long assignment list, with a scared expression, tears rolling down from his cheek."
+5. Structure all prompts by setting a scene with at least one subject and a concrete action term, followed by a comma, and then describing the scene. For instance, "a view of a forest from a window in a cozy room, leaves are falling from the trees."
+6. To add variety and avoid repetition, it is important to mix up singular and plural forms when referring to subjects or objects in the prompts. For example, "two cats," "ten men," "five girls," or "seven books" can be used instead of consistently using singular forms.
+7. Some lyrics may contain inappropriate content, but the goal is to generate acceptable and decent prompts for them.
+8. Consider the sentiment of the song when generating prompts. The same line should be represented differently depending on the mood of the song. For example, "I went for a walk" could be converted to "a young man is taking a walk on a sunny day in a beautiful park full of trees" if the song is positive, or "an old man is taking a walk at night in a dark forest full of trees" if the song is negative.
+9. Do not use generic words such as person, people, man, woman, individual, figure, object, etc. Instead, across various topics, use diverse and specific terms such as desert, island, statue, skyscraper, stars, moon, rainbow, snowflakes, wolf, horse, dragon, bird, python, bike, truck, airplane, astronaut, daisies, roses, diamond ring, and so on, where appropriate.
+10. Do not always use human subjects. For instance, instead of "A person standing under a starry night sky, aware that there is no tomorrow" use "A clock with its hands frozen, in a cold weather where everything is frozen".
+11. Describe the scene with details and use various adjectives. For instance, colorful kites in the cloudy sky, frozen lakes with a gorgeous sunset in the background, a very long tree reaching the clouds, and so on.
+
+For example, if I give you:
+"1. Feels like the weight of the world
+2. Like God in heaven gave me a turn
+3. Money could be dangerous
+4. Everyone is leaving
+5. This is gonna be the best day of my life
+5. I am forever free"
+
+I expect you to give me a prompt per line as follows:
+
+"1. A man carrying a giant globe on his back in a post apocalyptic world, struggling with the weight.
+2. A scary demon is spinning a wheel in the dark and gloomy sky.
+3. A dragon with evil eyes is lying in a pile of shiny gold.
+4. A picture of an abandoned city in a dark gloomy weather, buildings are dark and destroyed.
+5. A stunning fireworks display illuminating the night sky, people are happily dancing.
+6. A majestic eagle soaring through the vast open sky, wings outstretched."
+
+Prioritize rules 9 and 10: don't use generic terms and human subjects while conveying the original lines. Start your response with "1.". Do you understand?
