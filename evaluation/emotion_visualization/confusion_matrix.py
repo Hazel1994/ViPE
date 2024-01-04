@@ -1,5 +1,4 @@
 import json
-import json
 # Load the dataset
 from datasets import load_dataset
 import argparse
@@ -31,7 +30,6 @@ def main():
         visual_pred = json.load(file)
 
     true_labels=valid_dataset['label']
-
 
     # Define class labels
     labels = ['sadness', 'joy', 'love', 'anger', 'fear', 'surprise']

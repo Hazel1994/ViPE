@@ -11,6 +11,7 @@ To train the ViPE model, follow these steps:
    virtualenv myenv
    source myenv/bin/activate
    pip install -r requirements.txt
+   cd training
    ```
 
 3. **Run Training**

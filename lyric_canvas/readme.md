@@ -6,6 +6,18 @@ phrases to visualizable prompts for image generation
 you can collect the lyrics and rebuild LyricCanvas with no additional cost.
 
 ## Compiling LyricCanvas
+- Setup
+1. Clone the Repository
+   ```bash
+   git clone git@github.com:Hazel1994/ViPE.git
+   ```
+2. Ensure Python and required dependencies are installed.
+   ```bash
+   virtualenv myenv
+   source myenv/bin/activate
+   pip install -r requirements.txt
+   cd lyric_canvas
+   ```
 Building LyricCanvas involves two main steps:
 - Step 1: Scraping lyrics from the Genius platform followed by a preprocessing step
 - Step 2: Generating synthetic visual elaboration using a large language models (e.g., GPT3.5 Turbo) followed by a post-processing step

@@ -41,8 +41,6 @@ songs. Compiling the LyricCanvas dataset comprising of 10M samples.
 │   └── inference                     <- Use the pre-trained ViPE for prompt generation
 ```
 
-**Note:** The evaluation section is not completed yet
-
 
 ### Citation
 

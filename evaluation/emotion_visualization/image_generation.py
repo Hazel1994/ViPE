@@ -17,7 +17,7 @@ def parse_args():
         "--batch_size", type=int, default=8, help="Batch size for image generation using Stable Diffusion"
     )
     parser.add_argument(
-        "--saving_dir", type=str, default='/graphics/scratch2/staff/hassan/checkpoints/lyrics_to_prompts/vis_emotion/emotions/visual_True/gpt2-medium_context_ctx_7_lr_5e-05-v4/',
+        "--saving_dir", type=str, default='/graphics/scratch2/staff/hassan/checkpoints/lyrics_to_prompts/vis_emotion/emotions/',
         help="a directory to save the generated images"
     )
     args = parser.parse_args()
