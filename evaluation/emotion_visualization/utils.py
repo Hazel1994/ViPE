@@ -1,18 +1,12 @@
 import json
 import os
 
-import evaluate
 import torch
-import torch.nn.functional as F
-from bert_score import score
-from datasets import DatasetDict, load_dataset
-from torch.nn.functional import cosine_similarity
-from torch.utils.data import Dataset, DataLoader
-from torch.utils.data import Dataset, DataLoader
-from tqdm import tqdm
-from transformers import AutoTokenizer, AutoModel
-from transformers import DataCollatorWithPadding
+from datasets import DatasetDict
+from torch.utils.data import Dataset
+from torch.utils.data import Dataset
 from torchvision.datasets.folder import default_loader
+
 
 def update_dataset_chatgpt(dataset, prompt_list):
     new_dataset = {k: [] for k in dataset['train'].features.keys()}
@@ -152,7 +146,7 @@ class DataCollator:
             caption_b.append(caption)
 
         inputs = self.processor(text=caption_b, images=image_b, return_tensors="pt", padding=True, max_length=77,
-                           truncation=True)
+                                truncation=True)
 
         return inputs
 

@@ -1,5 +1,4 @@
 import json
-# Load the dataset
 from datasets import load_dataset
 import argparse
 import numpy as np

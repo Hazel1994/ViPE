@@ -27,7 +27,7 @@ def parse_args():
         "--batch_size", type=int, default=8, help="Batch size for computing the clip scores"
     )
     parser.add_argument(
-        "--saving_dir", type=str, default='/graphics/scratch2/staff/hassan/checkpoints/lyrics_to_prompts/vis_emotion/emotions/visual_True/gpt2-medium_context_ctx_7_lr_5e-05-v4/',
+        "--saving_dir", type=str, default='/graphics/scratch2/staff/hassan/checkpoints/lyrics_to_prompts/vis_emotion/',
         help="the saving_dir used for image_generation.py"
     )
     args = parser.parse_args()

@@ -1,12 +1,16 @@
 Epoch 1/5 -
- Train Loss: 0.4091 -
- Valid Loss: 0.3416 -
- Accuracy: 0.5630
+ Train Loss: 0.4046 -
+ Valid Loss: 0.3399 -
+ Accuracy: 0.5710
 Epoch 2/5 -
- Train Loss: 0.3300 -
- Valid Loss: 0.3192 -
- Accuracy: 0.5835
+ Train Loss: 0.3291 -
+ Valid Loss: 0.3159 -
+ Accuracy: 0.5920
 Epoch 3/5 -
- Train Loss: 0.3041 -
- Valid Loss: 0.3090 -
+ Train Loss: 0.3033 -
+ Valid Loss: 0.3133 -
  Accuracy: 0.5990
+Epoch 4/5 -
+ Train Loss: 0.2834 -
+ Valid Loss: 0.3120 -
+ Accuracy: 0.6010

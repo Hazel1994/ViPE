@@ -1,22 +1,23 @@
+import argparse
+import json
 import os
 
-from tqdm import tqdm
-import torch
-import numpy as np
-import argparse
-from utils import prepare_ViPE, generate_from_tokens, SentenceDataset, collator_cl, write_list_to_json
-from profanity_check import predict_prob
-import pandas as pd
-from torch.utils.data import DataLoader
-import json
 import matplotlib.pylab as plt
+import numpy as np
+import pandas as pd
+import torch
+from profanity_check import predict_prob
+from torch.utils.data import DataLoader
+from tqdm import tqdm
+
+from utils import prepare_ViPE, generate_from_tokens, SentenceDataset, collator_cl, write_list_to_json
 
 
 def parse_args():
     parser = argparse.ArgumentParser(description="general information about the lyrics")
 
     parser.add_argument(
-        "--lyric_canvas_path", type=str, default='/graphics/scratch2/staff/hassan/genuis_chatgpt/test/lyric_canvas.csv',
+        "--lyric_canvas_path", type=str, default='/graphics/scratch2/staff/hassan/genuis_chatgpt/lyric_canvas.csv',
         help='path to lyric canvas file'
     )
 

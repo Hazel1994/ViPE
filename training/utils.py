@@ -1,11 +1,6 @@
 import pandas as pd
 from torch.utils.data import Dataset, DataLoader
-# import os
-# import json
-# import pickle
-# from tqdm import tqdm
-# import transformers
-# import torch
+
 
 class dotdict(dict):
     """dot.notation access to dictionary attributes"""
