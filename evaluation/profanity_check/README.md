@@ -12,7 +12,7 @@ We utilize the [alt-profanity-check](https://pypi.org/project/alt-profanity-chec
 
 ## Replicating the Results
 
-- Find the generated prompts for ViPE and ChatGPT in the `prompts` directory.
+- Find the generated prompts for ViPE and GPT2 in the `prompts` directory.
 - Upon obtaining the complete LyricCanvas dataset, execute the following script:
 ```bash
 python profanity_check.py --lyric_canvas_path <path to LyricCanvas dataset>
