@@ -13,7 +13,7 @@
 
 </div>
 
-### [ViPE Paper](https://arxiv.org/abs/2310.10543) | [Music Video Generation](https://github.com/Hazel1994/ViPE-Videos)  | [LyricCanvas Dataset](https://huggingface.co/datasets/fittar/lyric_canvas) | [Use in Huggingface](https://huggingface.co/fittar/ViPE-M-CTX7) | [Prompt Generation Demo](https://huggingface.co/spaces/fittar/ViPE)
+### [ViPE Paper](https://aclanthology.org/2023.emnlp-main.333/) | [Music Video Generation](https://github.com/Hazel1994/ViPE-Videos)  | [LyricCanvas Dataset](https://huggingface.co/datasets/fittar/lyric_canvas) | [Use in Huggingface](https://huggingface.co/fittar/ViPE-M-CTX7) | [Prompt Generation Demo](https://huggingface.co/spaces/fittar/ViPE)
 </div>
 
 ViPE is a model for translating any arbitrary piece of text into a visualizable prompt. It helps any text-to-image model in figurative or non-lexical language visualizations. Below is a comparison between SDXL with and without ViPE given ***infinity*** as a prompt.
