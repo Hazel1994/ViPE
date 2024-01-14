@@ -66,10 +66,11 @@ class ViPE(LightningModule):
 
         return {
             'optimizer': optimizer,
-            'scheduler': {
+            'lr_scheduler': {
                 'scheduler': scheduler,
                 'interval': 'step',
-                'frequency': 1
+                'frequency': 1,
+                'reduce_on_plateau': False
             }
         }
 
